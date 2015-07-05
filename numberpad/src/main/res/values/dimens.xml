@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginNumberPad">10dp</dimen>
+    <dimen name="txtSizeNumberPad">24sp</dimen>
+    <dimen name="paddingNumberPad">10dp</dimen>
+
+</resources>

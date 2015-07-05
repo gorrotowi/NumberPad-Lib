@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/txtPadOne"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/one" />
+
+        <TextView
+            android:id="@+id/txtPadTwo"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/two" />
+
+        <TextView
+            android:id="@+id/txtPadThree"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/three" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/txtPadFour"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/four" />
+
+        <TextView
+            android:id="@+id/txtPadFive"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/five" />
+
+        <TextView
+            android:id="@+id/txtPadSix"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/six" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/txtPadSeven"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/seven" />
+
+        <TextView
+            android:id="@+id/txtPadEigth"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/eigth" />
+
+        <TextView
+            android:id="@+id/txtPadNine"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/nine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            style="@style/txtStyleNumberPad"
+            android:text="@string/one"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtPadZero"
+            style="@style/txtStyleNumberPad"
+            android:text="@string/zero" />
+
+        <ImageView
+            android:id="@+id/imgPadDelete"
+            style="@style/imgStyleNumberPad"
+            android:contentDescription="@string/img_description"
+            android:src="@drawable/ic_keyboard_backspace_black_36dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
